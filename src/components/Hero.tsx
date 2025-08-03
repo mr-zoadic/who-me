@@ -65,33 +65,10 @@ const Hero = () => {
             </Button>
           </div>
 
-          {/* CTA Button */}
-          <div className="pt-4">
-            <Button 
-              onClick={scrollToContact}
-              variant="accent" 
-              size="lg"
-              className="group"
-            >
-              Let's work together
-              <Mail className="group-hover:translate-x-1 transition-transform duration-300" />
-            </Button>
-          </div>
-
           {/* Location */}
           <div className="flex items-center justify-center gap-2 text-muted-foreground">
             <MapPin size={16} />
-            <span className="text-sm">Based in [Your Location]</span>
-          </div>
-
-          {/* Bio */}
-          <div className="max-w-3xl mx-auto pt-8">
-            <p className="text-lg text-muted-foreground leading-relaxed">
-              Hello! I'm a dedicated software engineer with a passion for creating digital solutions 
-              that make a difference. With expertise in modern web technologies and a keen eye for 
-              design, I strive to build applications that are not only functional but also 
-              beautiful and user-friendly.
-            </p>
+            <span className="text-sm">Based in [Your Location], ready to relocate</span>
           </div>
         </div>
       </div>
