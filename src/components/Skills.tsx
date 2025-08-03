@@ -104,21 +104,11 @@ const Skills = () => {
                     {category.skills.map((skill) => (
                       <div
                         key={skill}
-                        className="flex items-center justify-between py-1"
+                        className="py-1"
                       >
                         <span className="text-sm text-foreground">
                           {skill}
                         </span>
-                        <div className="flex gap-1">
-                          {[...Array(5)].map((_, i) => (
-                            <div
-                              key={i}
-                              className={`w-1.5 h-1.5 rounded-full ${
-                                i < 4 ? "bg-accent" : "bg-muted"
-                              }`}
-                            />
-                          ))}
-                        </div>
                       </div>
                     ))}
                   </div>

@@ -186,68 +186,6 @@ const Contact = () => {
                 </div>
               </CardContent>
             </Card>
-
-            {/* Availability */}
-            <Card className="portfolio-card">
-              <CardContent className="p-8">
-                <div className="flex items-center gap-3 mb-4">
-                  <div className="p-2 bg-green-100 text-green-600 rounded-lg">
-                    <Calendar className="w-5 h-5" />
-                  </div>
-                  <h3 className="text-xl font-semibold text-foreground">
-                    Availability
-                  </h3>
-                </div>
-                
-                <div className="space-y-3">
-                  <div className="flex items-center gap-2">
-                    <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse"></div>
-                    <span className="text-foreground font-medium">
-                      Available for new projects
-                    </span>
-                  </div>
-                  <p className="text-muted-foreground">
-                    I'm currently accepting new freelance projects and full-time opportunities. 
-                    Let's discuss how I can help bring your vision to life.
-                  </p>
-                  <div className="pt-3">
-                    <Button variant="outline" size="sm" asChild>
-                      <a href="/calendar" target="_blank" rel="noopener noreferrer">
-                        Schedule a call
-                        <Calendar size={16} />
-                      </a>
-                    </Button>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
-
-            {/* Social Links */}
-            <Card className="portfolio-card">
-              <CardContent className="p-8">
-                <h3 className="text-xl font-semibold text-foreground mb-6">
-                  Connect with me
-                </h3>
-                
-                <div className="flex gap-4">
-                  <Button variant="outline" size="icon" asChild>
-                    <a href="https://github.com" target="_blank" rel="noopener noreferrer">
-                      <Github />
-                    </a>
-                  </Button>
-                  <Button variant="outline" size="icon" asChild>
-                    <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
-                      <Linkedin />
-                    </a>
-                  </Button>
-                  <Button variant="outline" size="icon" asChild>
-                    <a href="mailto:your.email@example.com">
-                      <Mail />
-                    </a>
-                  </Button>
-                </div>
-              </CardContent>
-            </Card>
           </div>
         </div>
 
