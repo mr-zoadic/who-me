@@ -7,7 +7,8 @@ import {
   Palette, 
   GitBranch,
   Server,
-  Monitor
+  Monitor,
+  Brain
 } from "lucide-react";
 
 interface SkillCategory {
@@ -35,6 +36,12 @@ const Skills = () => {
       title: "Database & Cloud",
       icon: <Database className="w-6 h-6" />,
       skills: ["PostgreSQL", "MongoDB", "Redis", "MySQL", "Firebase", "Supabase", "AWS", "Docker", "Kubernetes", "CI/CD", "Nginx", "Linux"],
+      description: ""
+    },
+    {
+      title: "Artificial Intelligence",
+      icon: <Brain className="w-6 h-6" />,
+      skills: ["PyTorch", "TensorFlow", "LangChain", "Ollama", "OpenAI API", "Hugging Face", "Scikit-learn", "Pandas", "NumPy"],
       description: ""
     }
   ];
