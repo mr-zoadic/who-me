@@ -56,9 +56,6 @@ const Projects = () => {
       <div className="container max-w-portfolio mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="section-title mb-4">Featured Projects</h2>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            A selection of projects that showcase my technical skills and problem-solving approach
-          </p>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">

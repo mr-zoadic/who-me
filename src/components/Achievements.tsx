@@ -64,9 +64,7 @@ const Achievements = () => {
 
   const stats = [
     { label: "Years of Experience", value: "6+" },
-    { label: "Projects Completed", value: "50+" },
-    { label: "Team Members Mentored", value: "15+" },
-    { label: "Technologies Mastered", value: "25+" }
+    { label: "Projects Completed", value: "50+" }
   ];
 
   return (
@@ -74,9 +72,6 @@ const Achievements = () => {
       <div className="container max-w-portfolio mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="section-title mb-4">Achievements & Impact</h2>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Key accomplishments and contributions that highlight my professional growth
-          </p>
         </div>
 
         {/* Stats Overview */}

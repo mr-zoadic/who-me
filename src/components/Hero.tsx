@@ -33,16 +33,15 @@ const Hero = () => {
           {/* Main heading */}
           <div className="space-y-4">
             <h1 className="hero-text">
-              Hey, I'm{" "}
+              Hello, I'm{" "}
               <span className="relative">
                 <span className="bg-gradient-to-r from-accent to-accent/80 bg-clip-text text-transparent">
-                  [Your Name]
+                  Ahmad Raza
                 </span>
               </span>
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-              A <span className="accent-text">software engineer</span> passionate about creating 
-              exceptional digital experiences through clean code and thoughtful design
+              A <span className="accent-text">software engineer</span> who loves building stuff that makes processes more time and resource efficient. (Core: AI and Backend Engineering)
             </p>
           </div>
 
@@ -65,11 +64,6 @@ const Hero = () => {
             </Button>
           </div>
 
-          {/* Location */}
-          <div className="flex items-center justify-center gap-2 text-muted-foreground">
-            <MapPin size={16} />
-            <span className="text-sm">Based in [Your Location], ready to relocate</span>
-          </div>
         </div>
       </div>
     </section>
