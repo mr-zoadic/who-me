@@ -141,47 +141,53 @@ const Achievements = () => {
             <h3 className="text-xl font-semibold text-foreground mb-4">
               Extra Curricular Activities
             </h3>
-            <p className="text-muted-foreground max-w-2xl mx-auto">
-              Activities and interests that contribute to my personal and professional development
-            </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <Card className="portfolio-card">
-              <CardContent className="p-6 text-center">
-                <div className="w-12 h-12 bg-accent/10 text-accent rounded-lg flex items-center justify-center mx-auto mb-4">
-                  <Users className="w-6 h-6" />
+          <div className="space-y-4">
+            <div className="flex items-center justify-between p-4 bg-card rounded-lg border">
+              <div className="flex items-center gap-3">
+                <div className="p-2 bg-accent/10 text-accent rounded-lg">
+                  <Users className="w-5 h-5" />
                 </div>
-                <h4 className="font-semibold text-foreground mb-2">Tech Meetup Organizer</h4>
-                <p className="text-sm text-muted-foreground">
-                  Organize monthly tech meetups for 200+ developers in the local community
-                </p>
-              </CardContent>
-            </Card>
+                <div>
+                  <h4 className="font-semibold text-foreground">Tech Meetup Organizer</h4>
+                  <p className="text-sm text-muted-foreground">Organize monthly tech meetups for 200+ developers</p>
+                </div>
+              </div>
+              <div className="text-right text-sm text-muted-foreground">
+                <div>2020 - Present</div>
+              </div>
+            </div>
 
-            <Card className="portfolio-card">
-              <CardContent className="p-6 text-center">
-                <div className="w-12 h-12 bg-accent/10 text-accent rounded-lg flex items-center justify-center mx-auto mb-4">
-                  <Code className="w-6 h-6" />
+            <div className="flex items-center justify-between p-4 bg-card rounded-lg border">
+              <div className="flex items-center gap-3">
+                <div className="p-2 bg-accent/10 text-accent rounded-lg">
+                  <Code className="w-5 h-5" />
                 </div>
-                <h4 className="font-semibold text-foreground mb-2">Coding Bootcamp Mentor</h4>
-                <p className="text-sm text-muted-foreground">
-                  Volunteer mentor helping aspiring developers transition into tech careers
-                </p>
-              </CardContent>
-            </Card>
+                <div>
+                  <h4 className="font-semibold text-foreground">Coding Bootcamp Mentor</h4>
+                  <p className="text-sm text-muted-foreground">Volunteer mentor helping aspiring developers transition into tech</p>
+                </div>
+              </div>
+              <div className="text-right text-sm text-muted-foreground">
+                <div>2019 - Present</div>
+              </div>
+            </div>
 
-            <Card className="portfolio-card">
-              <CardContent className="p-6 text-center">
-                <div className="w-12 h-12 bg-accent/10 text-accent rounded-lg flex items-center justify-center mx-auto mb-4">
-                  <Lightbulb className="w-6 h-6" />
+            <div className="flex items-center justify-between p-4 bg-card rounded-lg border">
+              <div className="flex items-center gap-3">
+                <div className="p-2 bg-accent/10 text-accent rounded-lg">
+                  <Lightbulb className="w-5 h-5" />
                 </div>
-                <h4 className="font-semibold text-foreground mb-2">Tech Blog Writer</h4>
-                <p className="text-sm text-muted-foreground">
-                  Regular contributor to technical publications with articles reaching 10K+ readers
-                </p>
-              </CardContent>
-            </Card>
+                <div>
+                  <h4 className="font-semibold text-foreground">Tech Blog Writer</h4>
+                  <p className="text-sm text-muted-foreground">Technical publications with articles reaching 10K+ readers</p>
+                </div>
+              </div>
+              <div className="text-right text-sm text-muted-foreground">
+                <div>2018 - Present</div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
