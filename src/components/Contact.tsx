@@ -73,127 +73,45 @@ const Contact = () => {
   return (
     <section id="contact" className="py-section bg-muted/30">
       <div className="container max-w-portfolio mx-auto px-6">
-        <div className="text-center mb-16">
-          <h2 className="section-title mb-4">Let's Work Together</h2>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            I'm always interested in new opportunities and exciting projects. 
-            Let's discuss how we can bring your ideas to life.
-          </p>
+        <div className="text-center mb-12">
+          <h2 className="section-title">Contact</h2>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-          {/* Contact Form */}
-          <Card className="portfolio-card">
+        <div className="flex justify-center">
+          <Card className="portfolio-card max-w-md w-full">
             <CardContent className="p-8">
-              <h3 className="text-xl font-semibold text-foreground mb-6">
-                Send me a message
+              <h3 className="text-xl font-semibold text-foreground mb-6 text-center">
+                Get in touch
               </h3>
               
-              <form onSubmit={handleSubmit} className="space-y-6">
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                  <div className="space-y-2">
-                    <Label htmlFor="name">Name</Label>
-                    <Input
-                      id="name"
-                      name="name"
-                      placeholder="Your name"
-                      value={formData.name}
-                      onChange={handleInputChange}
-                      required
-                    />
+              <div className="space-y-4">
+                {contactInfo.map((info, index) => (
+                  <div key={index} className="flex items-center gap-4">
+                    <div className="p-2 bg-accent/10 text-accent rounded-lg">
+                      {info.icon}
+                    </div>
+                    <div>
+                      <p className="text-sm text-muted-foreground">
+                        {info.label}
+                      </p>
+                      {info.href ? (
+                        <a
+                          href={info.href}
+                          className="text-foreground hover:text-accent transition-colors duration-300"
+                          target={info.href.startsWith('http') ? '_blank' : undefined}
+                          rel={info.href.startsWith('http') ? 'noopener noreferrer' : undefined}
+                        >
+                          {info.value}
+                        </a>
+                      ) : (
+                        <p className="text-foreground">{info.value}</p>
+                      )}
+                    </div>
                   </div>
-                  <div className="space-y-2">
-                    <Label htmlFor="email">Email</Label>
-                    <Input
-                      id="email"
-                      name="email"
-                      type="email"
-                      placeholder="your.email@example.com"
-                      value={formData.email}
-                      onChange={handleInputChange}
-                      required
-                    />
-                  </div>
-                </div>
-
-                <div className="space-y-2">
-                  <Label htmlFor="subject">Subject</Label>
-                  <Input
-                    id="subject"
-                    name="subject"
-                    placeholder="What's this about?"
-                    value={formData.subject}
-                    onChange={handleInputChange}
-                    required
-                  />
-                </div>
-
-                <div className="space-y-2">
-                  <Label htmlFor="message">Message</Label>
-                  <Textarea
-                    id="message"
-                    name="message"
-                    placeholder="Tell me about your project or inquiry..."
-                    rows={5}
-                    value={formData.message}
-                    onChange={handleInputChange}
-                    required
-                  />
-                </div>
-
-                <Button type="submit" variant="accent" size="lg" className="w-full">
-                  Send Message
-                  <Mail className="ml-2" />
-                </Button>
-              </form>
+                ))}
+              </div>
             </CardContent>
           </Card>
-
-          {/* Contact Info */}
-          <div className="space-y-8">
-            {/* Contact Details */}
-            <Card className="portfolio-card">
-              <CardContent className="p-8">
-                <h3 className="text-xl font-semibold text-foreground mb-6">
-                  Get in touch
-                </h3>
-                
-                <div className="space-y-4">
-                  {contactInfo.map((info, index) => (
-                    <div key={index} className="flex items-center gap-4">
-                      <div className="p-2 bg-accent/10 text-accent rounded-lg">
-                        {info.icon}
-                      </div>
-                      <div>
-                        <p className="text-sm text-muted-foreground">
-                          {info.label}
-                        </p>
-                        {info.href ? (
-                          <a
-                            href={info.href}
-                            className="text-foreground hover:text-accent transition-colors duration-300"
-                            target={info.href.startsWith('http') ? '_blank' : undefined}
-                            rel={info.href.startsWith('http') ? 'noopener noreferrer' : undefined}
-                          >
-                            {info.value}
-                          </a>
-                        ) : (
-                          <p className="text-foreground">{info.value}</p>
-                        )}
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              </CardContent>
-            </Card>
-          </div>
-        </div>
-
-        {/* Footer */}
-        <div className="text-center mt-16 pt-8 border-t border-border">
-          <p className="text-muted-foreground">
-            © 2024 [Your Name]. Built with React, TypeScript, and Tailwind CSS.
-          </p>
         </div>
       </div>
     </section>
