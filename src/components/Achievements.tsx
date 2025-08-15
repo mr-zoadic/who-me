@@ -13,58 +13,28 @@ interface Achievement {
 const Achievements = () => {
   const achievements: Achievement[] = [
     {
-      title: "Tech Innovation Award",
-      category: "Recognition",
-      description: "Received company-wide recognition for developing an AI-powered optimization system that reduced processing time by 70%",
-      date: "2023",
+      title: "LeetCode Contest Ranking",
+      category: "Programming",
+      description: "Contest Ranking - 1,838 on Leetcode (Top 7%)",
+      date: "Current",
       icon: <Trophy className="w-5 h-5" />,
-      stats: "70% improvement"
+      stats: "Top 7%"
     },
     {
-      title: "Open Source Contributor",
-      category: "Community",
-      description: "Active contributor to popular open-source projects with over 500 contributions and maintainer of 3 widely-used packages",
-      date: "2020 - Present",
-      icon: <Code className="w-5 h-5" />,
-      stats: "500+ contributions"
-    },
-    {
-      title: "Team Leadership Excellence",
-      category: "Leadership",
-      description: "Successfully led a cross-functional team of 8 developers in delivering a critical project 2 weeks ahead of schedule",
-      date: "2023",
-      icon: <Users className="w-5 h-5" />,
-      stats: "8 team members"
-    },
-    {
-      title: "Patent Filed",
-      category: "Innovation",
-      description: "Filed a patent for a novel approach to real-time data synchronization in distributed systems",
-      date: "2022",
-      icon: <Lightbulb className="w-5 h-5" />,
-      stats: "Patent #US123456"
-    },
-    {
-      title: "Hackathon Winner",
+      title: "National Runner-Up",
       category: "Competition",
-      description: "1st place winner at TechCrunch Disrupt Hackathon for building an innovative healthcare monitoring solution",
-      date: "2021",
+      description: "National Runner-Up (Rank 2) in India's largest case study competition (57K+ participants) – NationBuilding Competition 2025",
+      date: "2025",
       icon: <Star className="w-5 h-5" />,
-      stats: "1st Place"
-    },
-    {
-      title: "Performance Optimization",
-      category: "Technical",
-      description: "Optimized legacy system resulting in 85% reduction in load times and $50K annual cost savings",
-      date: "2022",
-      icon: <Target className="w-5 h-5" />,
-      stats: "85% faster"
+      stats: "Rank 2"
     }
   ];
 
   const stats = [
-    { label: "Years of Experience", value: "6+" },
-    { label: "Projects Completed", value: "50+" }
+    { label: "LeetCode Ranking", value: "1,838" },
+    { label: "National Competition", value: "Rank 2" },
+    { label: "Students Mentored", value: "18+" },
+    { label: "CGPA", value: "9.29/10" }
   ];
 
   return (
@@ -150,12 +120,12 @@ const Achievements = () => {
                   <Users className="w-5 h-5" />
                 </div>
                 <div>
-                  <h4 className="font-semibold text-foreground">Tech Meetup Organizer</h4>
-                  <p className="text-sm text-muted-foreground">Organize monthly tech meetups for 200+ developers</p>
+                  <h4 className="font-semibold text-foreground">Member - Academic Council (Senate)</h4>
+                  <p className="text-sm text-muted-foreground">Serving on the university's principal academic body, collaborating with the Vice-Chancellor and Academic Administration to draft strategies and implement policies, enhancing the academic experience for over 6,000 university students.</p>
                 </div>
               </div>
               <div className="text-right text-sm text-muted-foreground">
-                <div>2020 - Present</div>
+                <div>November 2024 - Present</div>
               </div>
             </div>
 
@@ -165,27 +135,12 @@ const Achievements = () => {
                   <Code className="w-5 h-5" />
                 </div>
                 <div>
-                  <h4 className="font-semibold text-foreground">Coding Bootcamp Mentor</h4>
-                  <p className="text-sm text-muted-foreground">Volunteer mentor helping aspiring developers transition into tech</p>
+                  <h4 className="font-semibold text-foreground">Syndicate Board Member at Next Tech Lab</h4>
+                  <p className="text-sm text-muted-foreground">Mentored and worked with over 18 students to develop their expertise in AI and its applications across research and projects, while leading strategic planning and operations for the QS-ranked, student-led research lab with over 116 members.</p>
                 </div>
               </div>
               <div className="text-right text-sm text-muted-foreground">
-                <div>2019 - Present</div>
-              </div>
-            </div>
-
-            <div className="flex items-center justify-between p-4 bg-card rounded-lg border">
-              <div className="flex items-center gap-3">
-                <div className="p-2 bg-accent/10 text-accent rounded-lg">
-                  <Lightbulb className="w-5 h-5" />
-                </div>
-                <div>
-                  <h4 className="font-semibold text-foreground">Tech Blog Writer</h4>
-                  <p className="text-sm text-muted-foreground">Technical publications with articles reaching 10K+ readers</p>
-                </div>
-              </div>
-              <div className="text-right text-sm text-muted-foreground">
-                <div>2018 - Present</div>
+                <div>February 2024 - November 2024</div>
               </div>
             </div>
           </div>

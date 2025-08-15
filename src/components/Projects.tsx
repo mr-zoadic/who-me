@@ -15,39 +15,13 @@ interface Project {
 const Projects = () => {
   const projects: Project[] = [
     {
-      title: "E-Commerce Platform",
-      description: "Full-stack e-commerce solution with modern payment integration",
-      longDescription: "A comprehensive e-commerce platform built with React and Node.js, featuring user authentication, product management, shopping cart functionality, and Stripe payment integration. Includes admin dashboard for inventory management.",
-      technologies: ["React", "Node.js", "Express", "MongoDB", "Stripe", "JWT"],
-      liveUrl: "https://example.com",
-      githubUrl: "https://github.com/username/ecommerce",
-      category: "Web Application"
-    },
-    {
-      title: "Task Management Dashboard",
-      description: "Collaborative project management tool with real-time updates",
-      longDescription: "A modern task management application with drag-and-drop functionality, real-time collaboration features, team management, and progress tracking. Built with a focus on user experience and performance.",
-      technologies: ["Vue.js", "TypeScript", "Socket.io", "PostgreSQL", "Redis"],
-      liveUrl: "https://example.com",
-      githubUrl: "https://github.com/username/taskmanager",
-      category: "Web Application"
-    },
-    {
-      title: "Weather Analytics API",
-      description: "RESTful API for weather data aggregation and analysis",
-      longDescription: "A robust API service that aggregates weather data from multiple sources, provides historical analysis, and offers predictive insights. Features comprehensive documentation and rate limiting.",
-      technologies: ["Python", "FastAPI", "PostgreSQL", "Docker", "AWS"],
-      githubUrl: "https://github.com/username/weather-api",
-      category: "Backend Service"
-    },
-    {
-      title: "Mobile Fitness Tracker",
-      description: "Cross-platform mobile app for fitness tracking and goals",
-      longDescription: "A comprehensive fitness tracking application with workout planning, progress monitoring, social features, and integration with wearable devices. Built with React Native for both iOS and Android.",
-      technologies: ["React Native", "Firebase", "Redux", "Chart.js"],
-      liveUrl: "https://apps.apple.com/app/fitness-tracker",
-      githubUrl: "https://github.com/username/fitness-app",
-      category: "Mobile Application"
+      title: "Multilingual Minutes of the Meeting Generation",
+      description: "AI-powered meeting automation system for institutional clients",
+      longDescription: "Designed and developed an industry project valued at $58,500 for institutional clients, automating the creation of meeting minutes, action plans, and summaries. Utilized AI and NLP-based frameworks, along with LLMs, to enhance efficiency in speaker identification, diarization, and transcription. Developed the backend system, integrated OAuth 2.0, designed databases, and architected deployment to support over 1,000 users.",
+      technologies: ["Python", "FastAPI", "PostgreSQL", "Docker", "AWS", "OAuth 2.0", "NLP", "LLMs"],
+      liveUrl: "",
+      githubUrl: "",
+      category: "AI/ML Application"
     }
   ];
 

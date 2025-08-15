@@ -23,25 +23,25 @@ const Skills = () => {
     {
       title: "Programming Languages",
       icon: <Code className="w-6 h-6" />,
-      skills: ["JavaScript", "TypeScript", "Python", "Java", "C++", "Go"],
+      skills: ["C++", "Java", "Python", "JavaScript"],
       description: ""
     },
     {
       title: "Web Development",
       icon: <Monitor className="w-6 h-6" />,
-      skills: ["React", "Vue.js", "TypeScript", "Next.js", "Tailwind CSS", "Node.js", "Python", "Express", "FastAPI", "REST APIs", "GraphQL"],
+      skills: ["HTML", "CSS", "FastAPI", "SpringBoot", "Cucumber", "PostgreSQL", "MongoDB", "Git", "Linux", "Docker", "AWS"],
       description: ""
     },
     {
       title: "Database & Cloud",
       icon: <Database className="w-6 h-6" />,
-      skills: ["PostgreSQL", "MongoDB", "Redis", "MySQL", "Firebase", "Supabase", "AWS", "Docker", "Kubernetes", "CI/CD", "Nginx", "Linux"],
+      skills: ["PostgreSQL", "MongoDB", "AWS", "Google Cloud", "Docker", "Linux"],
       description: ""
     },
     {
       title: "Artificial Intelligence",
       icon: <Brain className="w-6 h-6" />,
-      skills: ["PyTorch", "TensorFlow", "LangChain", "Ollama", "OpenAI API", "Hugging Face", "Scikit-learn", "Pandas", "NumPy"],
+      skills: ["PyTorch", "Flower (FL)", "Opacus", "MONAI", "Streamlit", "Langchain", "Ollama", "ChromaDB", "Pinecone", "CrewAI"],
       description: ""
     }
   ];

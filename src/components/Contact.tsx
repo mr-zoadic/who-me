@@ -47,26 +47,26 @@ const Contact = () => {
     {
       icon: <Mail className="w-5 h-5" />,
       label: "Email",
-      value: "your.email@example.com",
-      href: "mailto:your.email@example.com"
+      value: "inboxofahmad@gmail.com",
+      href: "mailto:inboxofahmad@gmail.com"
     },
     {
       icon: <Phone className="w-5 h-5" />,
       label: "Phone",
-      value: "+1 (555) 123-4567",
-      href: "tel:+15551234567"
-    },
-    {
-      icon: <MapPin className="w-5 h-5" />,
-      label: "Location",
-      value: "San Francisco, CA",
-      href: null
+      value: "+91-7037372711",
+      href: "tel:+917037372711"
     },
     {
       icon: <Linkedin className="w-5 h-5" />,
       label: "LinkedIn",
-      value: "linkedin.com/in/yourprofile",
-      href: "https://linkedin.com/in/yourprofile"
+      value: "ahmad-thewhiz",
+      href: "https://linkedin.com/in/ahmad-thewhiz"
+    },
+    {
+      icon: <Github className="w-5 h-5" />,
+      label: "GitHub",
+      value: "ahmadraza4",
+      href: "https://github.com/ahmadraza4"
     }
   ];
 

@@ -13,43 +13,55 @@ interface ExperienceItem {
 const Experience = () => {
   const experiences: ExperienceItem[] = [
     {
-      company: "Tech Company Inc.",
-      position: "Senior Software Engineer",
-      duration: "2022 - Present",
-      location: "San Francisco, CA",
+      company: "Bank of New York Mellon (BNY)",
+      position: "Software Developer Intern",
+      duration: "June 2025 – August 2025",
+      location: "Pune, Maharashtra, India",
       description: [
-        "Led development of microservices architecture serving 1M+ users",
-        "Mentored junior developers and established coding standards",
-        "Improved application performance by 40% through optimization",
-        "Collaborated with cross-functional teams on product roadmap"
+        "Built backend components for the Notification Manager application—implementing message handling and persistence with Apache Kafka",
+        "Conducted unit and integration testing of the application to validate requirements and support a production rollout",
+        "Developed a PoC internal tool using AI Agents to automate access-request workflows for onboarding new projects and team members",
+        "Auto-retrieving necessary data and raising access requests, shrinking a multi-step manual process to just a few prompts"
       ],
-      technologies: ["React", "Node.js", "TypeScript", "AWS", "Docker"]
+      technologies: ["Java", "Spring Boot", "Cucumber", "Python", "FastAPI", "Apache Kafka"]
     },
     {
-      company: "Startup Solutions",
-      position: "Full Stack Developer",
-      duration: "2020 - 2022",
-      location: "New York, NY",
+      company: "Institute of High Performance Computing, A* Star, Singapore",
+      position: "Research Intern",
+      duration: "February 2025 – May 2025",
+      location: "Remote",
       description: [
-        "Built and maintained web applications using modern frameworks",
-        "Implemented CI/CD pipelines reducing deployment time by 60%",
-        "Designed and developed RESTful APIs for mobile applications",
-        "Participated in agile development processes and sprint planning"
+        "Developed MedShieldFL, a dynamic privacy-preserving framework for federated learning",
+        "Adapts noise injection using the Fisher Information Matrix (FIM) & gradient convergence",
+        "Enforces strong differential privacy (DP) guarantees while preserving predictive performance",
+        "Outperformed state-of-the-art models by 7–11% for secure training in medical diagnostics"
       ],
-      technologies: ["Vue.js", "Python", "PostgreSQL", "GCP", "Kubernetes"]
+      technologies: ["Python", "PyTorch", "Flower(FL)", "Opacus"]
     },
     {
-      company: "Digital Agency",
-      position: "Frontend Developer",
-      duration: "2018 - 2020",
-      location: "Austin, TX",
+      company: "Share Ventures, California",
+      position: "AI Engineering Intern",
+      duration: "June 2024 – August 2024",
+      location: "Remote",
       description: [
-        "Created responsive web interfaces for various client projects",
-        "Collaborated with designers to implement pixel-perfect designs",
-        "Optimized web applications for performance and accessibility",
-        "Maintained and updated existing client websites"
+        "Collaborated with the AI Engg. team to design and implement scalable microservices, automation solutions, and AI agent-based systems",
+        "Enhanced core business workflows across portfolio management platforms and startup operations",
+        "Developed a multi-agent system that enables seamless CRM CRUD operations via text-based prompts",
+        "Built intelligent tools that auto-extract and populate lead details from social networks—reducing manual effort and time by over 60%"
       ],
-      technologies: ["HTML/CSS", "JavaScript", "React", "SASS", "Webpack"]
+      technologies: ["Python", "Ollama", "Langchain", "CrewAI", "Google Cloud", "ChromaDB", "PineconeDB"]
+    },
+    {
+      company: "GenVR Research",
+      position: "Backend Development Intern",
+      duration: "August 2023 – February 2024",
+      location: "Remote",
+      description: [
+        "Built multi-modal pipelines & RESTful APIs for GenAI apps, supporting text, speech & image processing using open-source LLMs",
+        "Contributed to data preprocessing, fine-tuning, and benchmarking of the AryaBhatta Series",
+        "Achieved performance that outperformed state-of-the-art models—including GPT-4—on multiple Indic language benchmarks"
+      ],
+      technologies: ["Python", "Langchain", "Huggingface", "PyTorch", "Google Services"]
     }
   ];
 
